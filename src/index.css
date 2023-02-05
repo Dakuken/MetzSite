@@ -1,0 +1,127 @@
+body{
+    background-color: #C4C4C4 ;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+h1{
+    text-align: center;
+    font-size: 150px;
+    margin-top: 0px;
+}
+
+
+
+.metzCMieu{
+    text-align: center;
+    font-size: 125px;
+    margin-top: 40rem;
+}
+
+
+.imageBack{
+    background-image: url("./assets/metz-accueil.jpg") ;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    visibility: visible
+}
+
+
+.cercleN {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: black;
+}
+
+.cercleG {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: grey;
+}
+
+.navi{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    position: fixed;
+    top : -100px ;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.direc{
+    display: flex;
+    gap: 80px;
+    margin-right: 100px;
+}
+
+.metzNav{
+    font-size: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    
+}
+
+
+.rondLigne{
+
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    margin: 50px 20px 0px 20px;
+    border-radius: 1%;
+}
+
+.sousTitre{
+    text-align: center;
+    font-size: 25px ;
+}
+
+.actu{
+    margin : 20px 20px 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 2%;
+}
+
+.tActu{
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.dateActu {
+    text-align: center;
+}
+
+.contActu{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textActu{
+    width: 50%;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.imgActu{
+    margin: 20px 20px 20px 20px;
+}
